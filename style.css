@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+#canvas{
+    background-color: black;
+    margin: 10px;
+    border-radius: 5px;
+}
+#canvasContainer{
+    background-color: #353535;
+}
+#maptxt{
+    overflow-y: visible;
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    color: lime;
+    border-radius: 5px;
+    width: 400px;
+    height: 45vh;
+    resize: none;
+}
+#maptxtContainer{
+    width: 100vw;
+    height: 48vh;
+    background-color: #353535;
+    display: flex;
+}
+#copyBtn{
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 75px;
+    margin: 10px;
+}
+#blockSelection{
+    height: 40vh;
+    width: 70vw;
+    background-color: white;
+    margin: auto;
+}
+
+.blockContainer{
+    background-color: grey;
+    width: 75px;
+    height: 100px;
+}
